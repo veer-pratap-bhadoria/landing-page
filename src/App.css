@@ -1578,9 +1578,27 @@ font-weight: 600;
   }
 
   .small-one{
-    line-height: 2vw;
-    font-size: 10px;
+    line-height: 3.5vw;
+    align-items: flex-start;
+    font-size: 3vw;
   }
+
+  .big-one{
+    font-size: 10vw;
+    line-height: 10vw;
+  }
+
+.big-text{
+  align-items: flex-start;
+  padding: 0 0 0 0;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-left: 2rem;
+  row-gap: 3rem;
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+  border-top: 1px solid #d7d7d6
+}
 
   .faq-section{
     flex-direction: column;
@@ -1734,15 +1752,10 @@ font-weight: 600;
   font-size: 1rem;
 }
 
-.small-one{
-  line-height: 2.7vw;
-  font-size: 8px;
+ .small-one{
+  line-height: 4vw;
 }
 
-.big-one{
-  line-height: 4vw;
-  font-size: 4vw;
-}
 
 }
 
