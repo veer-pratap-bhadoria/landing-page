@@ -43,11 +43,36 @@ function Footer() {
       </div>
       
     </div>
-    {/* <div className='footer-wrapper'>
-        {Array.from({length: 100}, (_, index)=>(
-            <div key={index} className='footer-dots'></div>
+
+    <div className="paddler-two">
+    <div className="footer-wrapper">
+      <div className="footwrap-one">
+        <div className="sub-footwrap-one">
+          <div className='nav-logo-wrapper-two'>
+     <img src="/images/logo.svg" alt="" />
+</div>
+<p>Fourmula</p>
+        </div>
+
+        <div className="sub-footwrap-two">
+          <div className="small-first">
+      <div className="small-one-f"><p>PDP's</p> <p>Videos</p></div>
+      <div className='small-one-f'><p>Privacy Policy</p> <p>Terms of Service</p><span>Cookie Policy</span></div>
+          </div>
+          <div className="small-first">
+      <div className="small-one-f"><p>Products</p> <p>Our features</p></div>
+      <div className="small-one-f"><span>Instagram</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div className="footwrap-two">
+        {Array.from({length: 1000}, (_, index)=>(
+          <div key={index} className='footer-dots'></div>
         ))}
-    </div> */}
+      </div>
+    </div>
+    </div>
     </>
   )
 }

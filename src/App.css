@@ -918,22 +918,84 @@ body {
   height: .44rem;
 }
 
-.footer-wrapper {
+ .footwrap-two {
   width: 100%;
-  height: 40vh;
+  height: 39vh;
   overflow: hidden;
   display: flex;
   flex-wrap: wrap;
-  row-gap: 20px;
-  column-gap: 50px;
+  row-gap: 15px;
+  column-gap: 16px;
 }
 
-.footer-dots {
-  width: 24px;
-  height: 24px;
+ .footer-dots {
+  width: 1vw;
+  height: 1vw;
   aspect-ratio: 1/1;
   border-radius: 50%;
   background-color: gray;
+} 
+
+.footer-wrapper{
+  display: flex;
+  flex-direction: column;
+  row-gap: 17vw;
+  width: 100%;
+  border-radius: 3rem;
+  background-color: #f7f7f7;
+  padding: 2rem;
+}
+
+.paddler-two{
+  padding: 10px;
+  width: 100%;
+  padding: 10px;
+  background: #fff;
+}
+
+.nav-logo-wrapper-two{
+  width: 120px;
+}
+
+.sub-footwrap-one{
+  display: flex;
+  gap: 2.5rem;
+  font-size: 3vw;
+  font-weight: 700;
+}
+
+.footwrap-one{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 11vw
+}
+
+.sub-footwrap-two{
+  display: flex;
+  justify-content: space-between;
+  width: 20vw;
+}
+
+.small-one-f{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  font-weight: 800;
+}
+
+.small-one-f span{
+  color: #02010880;
+}
+
+.small-first{
+  display: flex;
+  flex-direction: column;
+  row-gap: 70px;
+  font-size: 0.9em;
+}
+
+.nav-logo-wrapper-two img{
+  width: 100%;
 }
 
 .big-text {
@@ -1100,6 +1162,11 @@ font-weight: 600;
   .feature-image img{
     mask-image: none;
   }
+
+  .small-first{
+  font-size: 0.6em;
+}
+
 
 }
 
@@ -1413,6 +1480,12 @@ font-weight: 600;
     font-size: 16px;
   }
 
+  .sub-footwrap-two{
+    width: 29vw;
+  }
+
+  
+
 }
 
 
@@ -1490,6 +1563,11 @@ font-weight: 600;
     font-size: 25px;
     height: 50px;
   }
+
+  .nav-logo-wrapper-two{
+  width: 100px;
+}
+
 }
 
 
@@ -1625,6 +1703,11 @@ font-weight: 600;
   .questions{
   border-top: 1px solid #d7d7d6;
   }
+
+  .nav-logo-wrapper-two{
+  width: 80px;
+}
+
 }
 
 @media (max-width: 500px) {
@@ -1756,6 +1839,21 @@ font-weight: 600;
   line-height: 4vw;
 }
 
+.nav-logo-wrapper-two{
+  width: 65px;
+}
+
+.sub-footwrap-one{
+  gap: 1rem;
+}
+
+.footwrap-one{
+  padding-right: 0;
+}
+
+.sub-footwrap-two{
+  width: 40vw;
+}
 
 }
 
@@ -1875,6 +1973,11 @@ font-weight: 600;
     padding-left: 1rem;
     padding-right: 1rem;
   }
+
+.footer-wrapper{
+  padding: 1rem;
+}
+
 
 }
 

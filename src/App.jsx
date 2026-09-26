@@ -1,7 +1,7 @@
 import React from 'react'
 import "./App.css";
 import Main from './components/Main';
-import NavBar from   './components/NavBar';
+import NavBar from   './components/Navbar';
 import About from './components/About';
 import How from './components/How';
 import Features from './components/Features';
