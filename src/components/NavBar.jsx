@@ -5,7 +5,7 @@ import { CgProfile } from "react-icons/cg";
 
 
 
-function NavBar() {
+function Navbar() {
   return (
     <nav className='nav-section'>
     <div className='nav-logo-wrapper'>
@@ -29,4 +29,4 @@ function NavBar() {
   )
 }
 
-export default NavBar
+export default Navbar
