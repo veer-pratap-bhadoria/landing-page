@@ -4,8 +4,7 @@ import { MdOutlineDarkMode } from "react-icons/md";
 import { CgProfile } from "react-icons/cg";
 
 
-
-function Navbar() {
+function Navigation() {
   return (
     <nav className='nav-section'>
     <div className='nav-logo-wrapper'>
@@ -26,7 +25,10 @@ function Navbar() {
       <button className='start-bttn'> <span>Get Started</span></button>
 </div>
     </nav>
+
   )
 }
 
-export default Navbar
+export default Navigation
+
+
