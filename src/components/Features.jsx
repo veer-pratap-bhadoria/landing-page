@@ -1,5 +1,5 @@
 import React from 'react'
-import FeatureBox from './Featurebox'
+import FeatureBox from './FeatureBox'
 
 function Features() {
   return (
